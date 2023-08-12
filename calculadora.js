@@ -22,14 +22,11 @@ function calcular (resultado){
         console.log(raizDelta)
         console.log(raiz1)
         console.log(raiz2)
-        //button.style.display=('none')
         document.getElementById('resultado-conteiner').style.display=('flex')
         document.getElementById('resultado').innerHTML=('S = ['+raiz1 +  '; ' + raiz2 + ']')
-
     }else{
         alert("Não é possível realizar o calculo")
     }
-    //console.log(raiz1, raiz2)
 }
 
 button.addEventListener('click', calcular)

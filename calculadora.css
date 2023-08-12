@@ -19,7 +19,6 @@ h1{
 }
 
 .conteiner{
-    
     border: 2px solid black;
     border-radius: 10px;
     padding: 20px;
@@ -31,6 +30,7 @@ h1{
     align-items: center;
 
 }
+
 .resultado-conteiner{
     margin: 15px;
     display: flex;
@@ -43,13 +43,13 @@ h1{
     justify-content: center;
     align-items: center;
 }
+
 .resultado{
     width: max;
     /*height: 30px;*/
     font-size: 25px;
     font-family: 'Lucida Sans';
 }
-
 
 .input {
     padding: 8px;
@@ -58,6 +58,7 @@ h1{
     width: 42px;
     height: 20px;
 }
+
 .label {
     margin-right: 25px;
     width: 30px;
@@ -70,7 +71,6 @@ h1{
     padding: 5px;
 }
 
-
 .button {
     margin: 30px;
     width: 150px;
@@ -79,7 +79,6 @@ h1{
     font-size: 25px;
     text-transform: uppercase;
     font-family: 'Lucida Sans';
-    /*width: 30%;*/
     background-color: rgb(233, 81, 54);
     border-radius: 10px;
     border: 2px solid rgb(233, 81, 54);
