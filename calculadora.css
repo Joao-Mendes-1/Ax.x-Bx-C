@@ -1,10 +1,14 @@
 body{
     
-    background-color: rgb(54, 136, 212);
+    background-color: rgb(41, 40, 40);
 
 }
 
 h1{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(41, 40, 40);
+    color: rgb(116, 164, 209);
     text-align: center;
     font-family: 'Lucida Sans';
 }
@@ -15,15 +19,12 @@ h1{
     height: 800px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(54, 136, 212);
+    background-color: rgb(116, 164, 209);
 }
 
 .conteiner{
-    border: 2px solid black;
-    border-radius: 10px;
     padding: 20px;
     max-width: 350px;
-    background-color: orange;
     display: flex;
     height: 250px;
     justify-content: center;
@@ -34,19 +35,21 @@ h1{
 .resultado-conteiner{
     margin: 15px;
     display: flex;
-    border: 2px solid black;
+    background-color: rgb(41, 40, 40);
+    border: 4px inset rgb(116, 164, 209);
     border-radius: 10px;
     padding: 10px;
     max-width: 250px;
-    background-color: orange;
     height: 150px;
     justify-content: center;
     align-items: center;
+    transition: 1s;
 }
 
 .resultado{
-    width: max;
+    /*width: max;*/
     /*height: 30px;*/
+    color: rgb(116, 164, 209);
     font-size: 25px;
     font-family: 'Lucida Sans';
 }
